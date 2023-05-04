@@ -1,0 +1,15 @@
+<suite name="Test Reports Suite" parallel="methods" thread-count="1" >
+    <listeners>
+        <listener class-name="com.mentormate.common.AnnotationTransformer" />
+    </listeners>
+    <test name="Landing test">
+        <classes>
+            <class name="selenium.LandingTest" />
+        </classes>
+    </test>
+    <test name="Login test">
+        <classes>
+            <class name="selenium.LoginTest" />
+        </classes>
+    </test>
+</suite>
